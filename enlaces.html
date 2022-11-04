@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      function programa(){
+        alert('programa ejecutado');
+        console.log('HOLA');
+      }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafo.html">
+                        <li>Párrafo</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="imagenes.html">
+                        <li>Imágenes</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FORMHTML5</li>
+                    </a>
+                </ul>
+
+            </nav>
+            <div id="content">
+                <div class="enlaces">
+                    <h1 class="txt-center">
+                        Enlaces
+                    </h1>
+                    <p>un enlace, link, hipervínculo, etc se realiza con la etiqueta <span class="tag">&lt;a&gt;</span>.
+                        en el atributo <span class="tag">href</span> obligatorio indicamos donde viajamos con este
+                        enlace</p>
+                    <h2>Enlaces a una página nuestra</h2>
+                    <p>ir a la página <a href="index.html">Home</a> </p>
+                    <h2>Enlace a una página de internet</h2>
+                    <p>ir a la pagina de <a href="https:www.toledo.es">Toledo</a></p>
+                    <h2>Enlace a una página en una pestaña nueva</h2>
+                    <p>para ello debemos usar una etiqueta a, el atributo <span class="tag">target="_blank"</span></p>
+                    <p>ir a la página de <a target="_blank" href="http://www.ies-azarquiel.es ">Azarquiel </a></p>
+                    <h2>Enlace sobre imagen</h2>
+                    <p>ir a <a href="https://www.amazon.es/" target="_blank"><img src="img/amazon.png" alt=""
+                                id="amazon"></a></p>
+                    <h2>Enlace de correo</h2>
+                    <p>Para ello debemos incluir la palabra <span class="tag">mailto:email</span> dentro del valor del atributo href de la etiqueta</p>
+                    <p>Mandar sugerencia al <a href=mailto:email>Web Master </a> </p>
+                    <h2>Enlace a programa javascript</h2>
+                    <p>Para ello debemos incluir <span class="tag">javascript:programa</span> dentro del valor del atributo href de la etiqueta a</p>
+                    <p><a href="javascript:programa()">haz click</a></p>
+                </div>
+
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            &copy; Daniel -S1DAW
+        </footer>
+    </div>
+</body>
+
+</html>
